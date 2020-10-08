@@ -100,7 +100,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: #fff;
+    color: #000;
 }
 
 .d-bloc button:hover {
@@ -711,7 +711,7 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
-    color: white;
+    color: #000;
 }
 
 h3 {
