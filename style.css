@@ -283,6 +283,7 @@ a:hover {
 
 #bloc-1-hero h1 {
     font-size: 32px;
+    color: #000;
 }
 
 .navbar {
@@ -707,7 +708,7 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 22px!important;
     line-height: 1.4em;
     color: #000;
 }
@@ -726,7 +727,7 @@ h3 {
 }
 
 h1 {
-    color: #FFF;
+    color: #FFF!important;
 }
 
 h4 {
@@ -737,12 +738,27 @@ h4 {
     margin-bottom: 14px;
     margin-top: 24px;
 }
-
+.fa-twitter,
+.fa-facebook,
+.fa-instagram,
+.fa-dribbble {
+    color: #000!important;
+}
 .white {
-    color: #fff;
+    color: #000;
 }
 .para {
     color: #000;
+    font-size: 15px;
+}
+.titre-contact {
+    color: #000!important;
+    font-size: 34px;
+}
+.txt-contact {
+    color: #000!important;
+    font-size: 15px;
+    margin-left: 9%;
 }
 .portfolio-thumb {
     margin-bottom: 24px;
@@ -775,11 +791,11 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-color: #364577;
+    background-color: #fff;
 }
 
 .bgc-atomic-tangerine {
-    background-color: #e32400;
+    background-color: #F3976C;
 }
 
 .tc-white {
@@ -787,15 +803,16 @@ h4 {
 }
 .t-img {
     color: black!important;
+    font-size: 14px;
 }
 .btn-atomic-tangerine {
-    background: #e32400;
-    color: #fff!important;
+    background: #F3976C;
+    color: #000!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #e34a50!important;
-    color: #fff!important;
+    background: #c27956!important;
+    color: #000!important;
 }
 
 .ltc-white {
